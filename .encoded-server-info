@@ -1,4 +1,3 @@
-// Base64 encoded values
 const SERVER_ID = "MTMyMTkyMzk2MDg2MjE1MDczNw==";
 const SERVER_OWNER_ID = "MTA5MjkwNTM2NjIzMDE0NzE3Mw==";
 const INVITE_LINK = "aHR0cHM6Ly9kaXNjb3JkLmdnLzNSZEFjZzIzZ3o=";
