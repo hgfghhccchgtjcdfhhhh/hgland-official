@@ -1,5 +1,4 @@
-# hgland-official
-
-- **Server ID:** 1321923960862150737  
-- **Server Owner ID:** 1092905366230147173  
-- **Invite Link:** [Join Here](https://discord.gg/3RdAcg23gz)  
+## server info encoded for anti raid/nuke
+SERVER_ID=MTMyMTkyMzk2MDg2MjE1MDczNw==
+SERVER_OWNER_ID=MTA5MjkwNTM2NjIzMDE0NzE3Mw==
+INVITE_LINK=aHR0cHM6Ly9kaXNjb3JkLmdnLzNSZEFjZzIzZ3o=
