@@ -1,3 +1,4 @@
+![IMG_1505](https://github.com/user-attachments/assets/580b10cf-8061-4fd6-be1f-a8a37c354b2a)
 # Code of Conduct
 
 We are committed to maintaining a positive, respectful, and inclusive community for all contributors. This Code of Conduct applies to all participants in this repository and aims to ensure a welcoming environment for everyone.
