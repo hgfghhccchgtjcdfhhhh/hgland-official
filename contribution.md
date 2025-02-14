@@ -1,4 +1,5 @@
-# Contributing to [Project Name]
+![IMG_1505](https://github.com/user-attachments/assets/4dec4527-5e33-4d19-8588-ce7e468362f7)
+# Contributing to hgland-official
 
 We’re excited to have you here! By contributing to this project, you’re helping to make it better. Please take a moment to review the guidelines to ensure your contribution is aligned with the project's goals.
 
