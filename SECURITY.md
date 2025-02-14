@@ -1,7 +1,7 @@
+![IMG_1505](https://github.com/user-attachments/assets/1f475727-1d01-4197-b3ab-82f247e4150e)
 # Security Policy
 **hglands official Security Policy**
 
-![IMG_1505](https://github.com/user-attachments/assets/1f475727-1d01-4197-b3ab-82f247e4150e)
 ## Supported Versions.
 We actively support the latest version of this repository. Older versions may not receive security updates or fixes.  
 
