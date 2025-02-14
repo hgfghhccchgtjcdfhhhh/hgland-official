@@ -1,3 +1,4 @@
+![IMG_1505](https://github.com/user-attachments/assets/47753f73-6a27-4765-b630-82e2adfbd295)
 # Server Info
 
 - **Server ID:** 1321923960862150737
