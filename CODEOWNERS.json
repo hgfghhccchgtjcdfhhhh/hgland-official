@@ -1,0 +1,31 @@
+{
+  "title": "Repository Code Owners",
+  "description": "This file defines the official owner and maintainers of the repository.",
+  "repository": {
+    "name": "hgland-official",
+    "visibility": "public"
+  },
+  "CODEOWNERS": [
+    {
+      "username": "@hgfghhccchgtjcdfhhhh",
+      "role": "Repository Owner",
+      "permissions": {
+        "admin": true,
+        "write": true,
+        "read": true
+      },
+      "reason": "Creator of Repository and Server"
+    }
+  ],
+  "rules": {
+    "merge_restrictions": "Pull requests require approval from the repository owner.",
+    "branch_protection": {
+      "main": {
+        "require_approval": true,
+        "require_status_checks": true,
+        "prevent_deletions": true
+      }
+    }
+  },
+  "additional_notes": "This file is automatically referenced for ownership validation."
+}
