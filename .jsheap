@@ -1,0 +1,58 @@
+const fs = require("fs");
+
+const Servers = {
+    list: {},
+
+    addServer: function(id, name, maxPlayers) {
+        this.list[id] = {
+            name: name,
+            maxPlayers: maxPlayers,
+            currentPlayers: 0
+        };
+        this.saveHeapData();
+        console.log(`Server added: ${name}`);
+    },
+
+    removeServer: function(id) {
+        if (this.list[id]) {
+            console.log(`Server removed: ${this.list[id].name}`);
+            delete this.list[id];
+            this.saveHeapData();
+        } else {
+            console.log("Server ID not found!");
+        }
+    },
+
+    updatePlayerCount: function(id, count) {
+        if (this.list[id]) {
+            this.list[id].currentPlayers = count;
+            this.saveHeapData();
+            console.log(`Updated player count for ${this.list[id].name}: ${count}`);
+        } else {
+            console.log("Server ID not found!");
+        }
+    },
+
+    getServerInfo: function(id) {
+        return this.list[id] || null;
+    },
+
+    saveHeapData: function() {
+        const heapData = {
+            heapUsage: {
+                totalMemory: process.memoryUsage().heapTotal,
+                usedMemory: process.memoryUsage().heapUsed,
+                freeMemory: process.memoryUsage().heapTotal - process.memoryUsage().heapUsed
+            },
+            serverStats: {
+                activeServers: Object.keys(this.list).length,
+                totalPlayers: Object.values(this.list).reduce((sum, server) => sum + server.currentPlayers, 0)
+            },
+            logs: []
+        };
+
+        fs.writeFileSync("data.jsheap", JSON.stringify(heapData, null, 4));
+    }
+};
+
+module.exports = Servers;
